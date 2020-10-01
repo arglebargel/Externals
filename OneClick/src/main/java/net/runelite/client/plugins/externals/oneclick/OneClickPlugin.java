@@ -392,6 +392,9 @@ public class OneClickPlugin extends Plugin
 			case BA_HEALER:
 				if (event.getOpcode() == MenuOpcode.WALK.getId())
 				{
+					MenuEntry menuEntry = client.getLeftClickMenuEntry();
+					menuEntry.setOpcode(MenuOpcode.FOLLOW.getId() + MENU_ACTION_DEPRIORITIZE_OFFSET);
+					client.setLeftClickMenuEntry(menuEntry);
 				}
 				break;
 			default:
