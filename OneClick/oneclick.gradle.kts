@@ -27,7 +27,7 @@
 version = "5.14.0"
 
 project.extra["PluginName"] = "OneClick"
-project.extra["PluginDescription"] = "OP One Click methods."
+project.extra["PluginDescription"] = "Sexy One Click methods."
 
 tasks {
     jar {
