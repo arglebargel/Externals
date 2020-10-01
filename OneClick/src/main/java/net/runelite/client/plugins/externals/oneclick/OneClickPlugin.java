@@ -389,6 +389,11 @@ public class OneClickPlugin extends Plugin
 		switch (type)
 		{
 			case SEED_SET:
+			case BA_HEALER:
+				if (event.getOpcode() == MenuOpcode.WALK.getId())
+				{
+				}
+				break;
 			default:
 				break;
 		}
