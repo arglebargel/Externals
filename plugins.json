@@ -364,7 +364,7 @@
         "date": "2020-07-31",
         "sha512sum": "10DCE42F79733EAF0E927316A009471C5F0F7A996DF8CC92DC65FF97E211463616C549AF265F760A61DF7499DA838F1E4F8F08E56CFE22D4969F3AAD144B45E3",
         "version": "5.14.0",
-        "url": "https://github.com/Ganom/ExternalPlugins/blob/master/release/OneClick-5.14.0.jar?raw=true",
+        "url": "https://github.com/Ganom/ExternalPlugins/blob/master/release/NeverLog-5.14.0.jar?raw=true",
         "requires": "0.0.1"
       }
     ]
